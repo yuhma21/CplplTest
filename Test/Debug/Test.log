@@ -1,16 +1,14 @@
-﻿2013/08/24 10:54:27 にビルドを開始しました。
-     1>ノード 2 上のプロジェクト "C:\Users\Yuhei\Documents\CplplTest\Test\Test.vcxproj" (Build ターゲット)。
+﻿2013/08/26 15:10:10 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\yuuhei_matsui\Documents\CplplTest\Test\Test.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Average2.cpp InputStream.cpp
          InputStream.cpp
+     1>c:\users\yuuhei_matsui\documents\cplpltest\test\inputstream.cpp : fatal error C1033: プログラム データベース 'c:\users\yuuhei_matsui\documents\cplpltest\test\debug\vc110.idb' を開けません。
          Average2.cpp
+     1>c:\users\yuuhei_matsui\documents\cplpltest\test\average2.cpp : fatal error C1033: プログラム データベース 'c:\users\yuuhei_matsui\documents\cplpltest\test\debug\vc110.pdb' を開けません。
          コードを生成中...
-       Link:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuhei\Documents\CplplTest\Debug\Test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yuhei\Documents\CplplTest\Debug\Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yuhei\Documents\CplplTest\Debug\Test.lib" /MACHINE:X86 Debug\Average2.obj
-         Debug\InputStream.obj
-         Test.vcxproj -> C:\Users\Yuhei\Documents\CplplTest\Debug\Test.exe
-     1>プロジェクト "C:\Users\Yuhei\Documents\CplplTest\Test\Test.vcxproj" (Build ターゲット) のビルドが完了しました。
+     1>プロジェクト "C:\Users\yuuhei_matsui\Documents\CplplTest\Test\Test.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
 
-ビルドに成功しました。
+ビルドに失敗しました。
 
-経過時間 00:00:10.25
+経過時間 00:00:03.90
